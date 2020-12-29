@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A11AAA52291376A00BEF9D8E3B4DC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3EDFBC4937A0CDB9F02B396B28836CE9 /* NSObject+MSDeallocCallBack.h in Headers */ = {isa = PBXBuildFile; fileRef = 6935C83C29675F493D8DDF60326380D8 /* NSObject+MSDeallocCallBack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E9D37E92F0C0ADF64F456CDF259DDA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9677B65C2C8F74039E59C1527DE5DCA2 /* NSObject+MSDeallocCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7F70B810E6606E4CBE44F7B7754BA /* NSObject+MSDeallocCallBack.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C623E04F773CFF79E78C64880298BD3C /* Pods-DeallocCallback-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D29ED17ACB6C83AD83D9EA0C5264FAC8 /* Pods-DeallocCallback-dummy.m */; };
+		C76A39B1435C467C397DC5F17ED92F5B /* MSDeallocCallBack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F799F8FACB7B7A8015595D69948D3F6 /* MSDeallocCallBack-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3923E0B21DC37BB3BDAD909651B6B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8885C2213A7ED3764CB5A6D4D3ECC378;
+			remoteInfo = MSDeallocCallBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6935C83C29675F493D8DDF60326380D8 /* NSObject+MSDeallocCallBack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MSDeallocCallBack.h"; path = "DeallocCallback/NSObject+MSDeallocCallBack.h"; sourceTree = "<group>"; };
+		6EE7F70B810E6606E4CBE44F7B7754BA /* NSObject+MSDeallocCallBack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MSDeallocCallBack.m"; path = "DeallocCallback/NSObject+MSDeallocCallBack.m"; sourceTree = "<group>"; };
+		6F799F8FACB7B7A8015595D69948D3F6 /* MSDeallocCallBack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSDeallocCallBack-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9468779A3812D5B5673AA11F6A902D90 /* Pods-DeallocCallback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeallocCallback.debug.xcconfig"; sourceTree = "<group>"; };
+		9BB06C16176EDE8E9F1285500ECE1FB6 /* Pods-DeallocCallback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeallocCallback.release.xcconfig"; sourceTree = "<group>"; };
+		A0F4B9E13B6345C8D224933C971BB419 /* MSDeallocCallBack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSDeallocCallBack-prefix.pch"; sourceTree = "<group>"; };
+		ACC1CD5ED8ED010F2D81E93EF685911E /* Pods-DeallocCallback-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeallocCallback-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B803C1EAD11F4A5ACE7205347D878ECF /* Pods-DeallocCallback-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeallocCallback-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBBD4EE0FA1052E2858FDE3927C6F5E0 /* Pods-DeallocCallback-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeallocCallback-frameworks.sh"; sourceTree = "<group>"; };
+		D29ED17ACB6C83AD83D9EA0C5264FAC8 /* Pods-DeallocCallback-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeallocCallback-dummy.m"; sourceTree = "<group>"; };
+		D9DC1F0B5A1F67370908F28E74E8372F /* libPods-DeallocCallback.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeallocCallback.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61D07733D51012DBACB2C1B2AEB0967 /* MSDeallocCallBack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSDeallocCallBack.xcconfig; sourceTree = "<group>"; };
+		EF674926D4C145E533965EA9A94D984C /* Pods-DeallocCallback-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeallocCallback-acknowledgements.plist"; sourceTree = "<group>"; };
+		F190A2D51F04C82AEA0B91823A3A1ABE /* libMSDeallocCallBack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSDeallocCallBack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FEF9E5C94F57690F5C7B52D7FABFDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A11AAA52291376A00BEF9D8E3B4DC98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA104D60427739318B6564CA7572FDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9D37E92F0C0ADF64F456CDF259DDA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0070D18C54C439F4C61E1D34228CE6C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F190A2D51F04C82AEA0B91823A3A1ABE /* libMSDeallocCallBack.a */,
+				D9DC1F0B5A1F67370908F28E74E8372F /* libPods-DeallocCallback.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032D0EE6AE4EC3E3ED6AA17C5F4B6919 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F87729E0B44EE60B8FF520C1D3C111DD /* Pods-DeallocCallback */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F3F28E75B182ABACA5D185629CE710C /* MSDeallocCallBack */ = {
+			isa = PBXGroup;
+			children = (
+				6935C83C29675F493D8DDF60326380D8 /* NSObject+MSDeallocCallBack.h */,
+				6EE7F70B810E6606E4CBE44F7B7754BA /* NSObject+MSDeallocCallBack.m */,
+				D92DCFC490EF08CC01EC81604E355E0D /* Support Files */,
+			);
+			path = MSDeallocCallBack;
+			sourceTree = "<group>";
+		};
+		43AC254ABE9D992D7C807BAC42AC3816 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F3F28E75B182ABACA5D185629CE710C /* MSDeallocCallBack */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				43AC254ABE9D992D7C807BAC42AC3816 /* Pods */,
+				0070D18C54C439F4C61E1D34228CE6C0 /* Products */,
+				032D0EE6AE4EC3E3ED6AA17C5F4B6919 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D92DCFC490EF08CC01EC81604E355E0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E61D07733D51012DBACB2C1B2AEB0967 /* MSDeallocCallBack.xcconfig */,
+				6F799F8FACB7B7A8015595D69948D3F6 /* MSDeallocCallBack-dummy.m */,
+				A0F4B9E13B6345C8D224933C971BB419 /* MSDeallocCallBack-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MSDeallocCallBack";
+			sourceTree = "<group>";
+		};
+		F87729E0B44EE60B8FF520C1D3C111DD /* Pods-DeallocCallback */ = {
+			isa = PBXGroup;
+			children = (
+				ACC1CD5ED8ED010F2D81E93EF685911E /* Pods-DeallocCallback-acknowledgements.markdown */,
+				EF674926D4C145E533965EA9A94D984C /* Pods-DeallocCallback-acknowledgements.plist */,
+				D29ED17ACB6C83AD83D9EA0C5264FAC8 /* Pods-DeallocCallback-dummy.m */,
+				CBBD4EE0FA1052E2858FDE3927C6F5E0 /* Pods-DeallocCallback-frameworks.sh */,
+				B803C1EAD11F4A5ACE7205347D878ECF /* Pods-DeallocCallback-resources.sh */,
+				9468779A3812D5B5673AA11F6A902D90 /* Pods-DeallocCallback.debug.xcconfig */,
+				9BB06C16176EDE8E9F1285500ECE1FB6 /* Pods-DeallocCallback.release.xcconfig */,
+			);
+			name = "Pods-DeallocCallback";
+			path = "Target Support Files/Pods-DeallocCallback";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EBD56C67428A10980E4B9203E09F6395 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDFBC4937A0CDB9F02B396B28836CE9 /* NSObject+MSDeallocCallBack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8885C2213A7ED3764CB5A6D4D3ECC378 /* MSDeallocCallBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4DC1EDF459305C657411DDFD8C572E /* Build configuration list for PBXNativeTarget "MSDeallocCallBack" */;
+			buildPhases = (
+				188994E752DD2AE175EF9FFC9EF861FA /* Sources */,
+				CA104D60427739318B6564CA7572FDE2 /* Frameworks */,
+				EBD56C67428A10980E4B9203E09F6395 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSDeallocCallBack;
+			productName = MSDeallocCallBack;
+			productReference = F190A2D51F04C82AEA0B91823A3A1ABE /* libMSDeallocCallBack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC3EA21647CFE77759F7ACE820B9F601 /* Pods-DeallocCallback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC4CD55FA420D10379490280A1ED2CE /* Build configuration list for PBXNativeTarget "Pods-DeallocCallback" */;
+			buildPhases = (
+				62384BCDA6F30373F9A37C8E207013B2 /* Sources */,
+				8FEF9E5C94F57690F5C7B52D7FABFDBE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D0817D523EF3EFDF356BADDE240BC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-DeallocCallback";
+			productName = "Pods-DeallocCallback";
+			productReference = D9DC1F0B5A1F67370908F28E74E8372F /* libPods-DeallocCallback.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0070D18C54C439F4C61E1D34228CE6C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8885C2213A7ED3764CB5A6D4D3ECC378 /* MSDeallocCallBack */,
+				FC3EA21647CFE77759F7ACE820B9F601 /* Pods-DeallocCallback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188994E752DD2AE175EF9FFC9EF861FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76A39B1435C467C397DC5F17ED92F5B /* MSDeallocCallBack-dummy.m in Sources */,
+				9677B65C2C8F74039E59C1527DE5DCA2 /* NSObject+MSDeallocCallBack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62384BCDA6F30373F9A37C8E207013B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C623E04F773CFF79E78C64880298BD3C /* Pods-DeallocCallback-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15D0817D523EF3EFDF356BADDE240BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSDeallocCallBack;
+			target = 8885C2213A7ED3764CB5A6D4D3ECC378 /* MSDeallocCallBack */;
+			targetProxy = B3923E0B21DC37BB3BDAD909651B6B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		662AB2BD810C7A64B2F07CC5A6C20702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468779A3812D5B5673AA11F6A902D90 /* Pods-DeallocCallback.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A33F873AC3F4CEF09F6BC6F91247F59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61D07733D51012DBACB2C1B2AEB0967 /* MSDeallocCallBack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSDeallocCallBack/MSDeallocCallBack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F35A912E1CE2014504E45F325880BFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB06C16176EDE8E9F1285500ECE1FB6 /* Pods-DeallocCallback.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F6DDF808B7C951A1250F036322A90996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61D07733D51012DBACB2C1B2AEB0967 /* MSDeallocCallBack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSDeallocCallBack/MSDeallocCallBack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC4CD55FA420D10379490280A1ED2CE /* Build configuration list for PBXNativeTarget "Pods-DeallocCallback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662AB2BD810C7A64B2F07CC5A6C20702 /* Debug */,
+				F35A912E1CE2014504E45F325880BFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4DC1EDF459305C657411DDFD8C572E /* Build configuration list for PBXNativeTarget "MSDeallocCallBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33F873AC3F4CEF09F6BC6F91247F59F /* Debug */,
+				F6DDF808B7C951A1250F036322A90996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
